@@ -1,0 +1,16 @@
+To view any page give the address of the controller in the url
+For example to load fordogs we need to give address as follows:
+http://localhost/petdoctor/web/controllers/ForDogs.php
+
+Every view has a corressponding controller
+view file name is in small letters and is stored in view folder = fordogs.php
+controller file name has first letter captial of each word and is stored in controllers = forcats.php
+
+We are using controller to do tasks such as getting data from database or performing some business logic before we load any page
+
+To import database:
+1. Go to php my admin
+2. Got to import tab
+3. Click on choose file and then click on "Go"
+
+The db file name is pet_doctor.sql and is stored in /petdoctor/web folder
